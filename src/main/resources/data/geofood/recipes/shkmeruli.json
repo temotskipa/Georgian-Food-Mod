@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:cooked_chicken"
+        },
+        {
+            "item": "minecraft:milk_bucket"
+        },
+        {
+            "item": "geofood:garlic"
+        },
+        {
+            "item": "geofood:butter"
+        },
+        {
+            "item": "geofood:salt"
+        },
+        {
+            "item": "minecraft:bowl"
+        }
+    ],
+    "result": {
+        "item": "geofood:shkmeruli",
+        "count": 1
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "G"
+  ],
+  "key": {
+    "#": {
+      "item": "geofood:grape"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "geofood:grape_juice",
+    "count": 1
+  }
+}

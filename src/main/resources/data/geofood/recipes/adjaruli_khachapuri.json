@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "geofood:salt"
+    },
+    {
+      "item": "geofood:sulguni"
+    },
+    {
+      "item": "geofood:imeruli_cheese"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "geofood:butter"
+    }
+  ],
+  "result": {
+    "item": "geofood:adjaruli_khachapuri",
+    "count": 1
+  }
+}

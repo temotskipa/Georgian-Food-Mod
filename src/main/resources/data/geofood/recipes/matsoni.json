@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "BB"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:milk_bucket"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "geofood:matsoni",
+    "count": 2
+  }
+}

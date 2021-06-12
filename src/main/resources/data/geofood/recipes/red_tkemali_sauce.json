@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "geofood:red_tkemali"
+        },
+        {
+            "item": "geofood:coriander"
+        },
+        {
+            "item": "geofood:red_pepper"
+        },
+        {
+            "item": "geofood:garlic"
+        },
+        {
+            "item": "geofood:salt"
+        },
+        {
+            "item": "minecraft:sugar"
+        }
+    ],
+    "result": {
+        "item": "geofood:red_tkemali_sauce",
+        "count": 1
+    }
+}

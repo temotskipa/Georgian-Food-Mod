@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:cooked_mutton"
+        },
+        {
+            "item": "geofood:coriander"
+        },
+        {
+            "item": "geofood:parsley"
+        },
+        {
+            "item": "geofood:scallion"
+        },
+        {
+            "item": "geofood:garlic"
+        },
+        {
+            "item": "minecraft:bowl"
+        },
+        {
+            "item": "geofood:tkemali"
+        },
+        {
+            "item": "geofood:red_pepper"
+        },
+        {
+            "item": "geofood:salt"
+        }
+    ],
+    "result": {
+        "item": "geofood:chakapuli",
+        "count": 1
+    }
+}

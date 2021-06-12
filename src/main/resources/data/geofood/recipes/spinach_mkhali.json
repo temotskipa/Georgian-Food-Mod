@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "geofood:spinach"
+        },
+        {
+            "item": "geofood:walnut"
+        },
+        {
+            "item": "geofood:cilantro"
+        },
+        {
+            "item": "geofood:fenugreek"
+        },
+        {
+            "item": "geofood:coriander"
+        },
+        {
+            "item": "geofood:marigold"
+        },
+        {
+            "item": "geofood:garlic"
+        },
+        {
+            "item": "geofood:onion"
+        },
+        {
+            "item": "geofood:salt"
+        }
+    ],
+    "result": {
+        "item": "geofood:spinach_mkhali",
+        "count": 1
+    }
+}

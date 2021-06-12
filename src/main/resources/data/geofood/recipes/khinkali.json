@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:cooked_beef"
+        },
+        {
+            "item": "minecraft:cooked_porkchop"
+        },
+        {
+            "item": "minecraft:wheat"
+        }
+    ],
+    "result": {
+        "item": "geofood:khinkali",
+        "count": 2
+    }
+}

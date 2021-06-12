@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "geofood:red_tkemali"
+        }
+    ],
+    "result": {
+        "item": "geofood:tklapi",
+        "count": 1
+    }
+}

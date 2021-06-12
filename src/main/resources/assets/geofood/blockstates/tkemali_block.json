@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "geofood:block/tkemali_block"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "geofood:red_tkemali_sauce"
+        },
+        {
+            "item": "minecraft:beetroot"
+        },
+        {
+            "item": "geofood:cilantro"
+        }
+    ],
+    "result": {
+        "item": "geofood:beetroot_in_tkemali",
+        "count": 1
+    }
+}
