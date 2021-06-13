@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "geofood:block/salt_block"
+    }
+  }
+}

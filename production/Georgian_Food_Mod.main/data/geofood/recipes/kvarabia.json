@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "geofood:salt"
+    },
+    {
+      "item": "geofood:imeruli_cheese"
+    },
+    {
+      "item": "geofood:sulguni"
+    },
+    {
+      "item": "geofood:sour_cream"
+    }
+  ],
+  "result": {
+    "item": "geofood:kvarabia",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "geofood:fenugreek"
+        },
+        {
+            "item": "geofood:walnut"
+        },
+        {
+            "item": "geofood:cilantro"
+        },
+        {
+            "item": "minecraft:beetroot"
+        },
+        {
+            "item": "geofood:coriander"
+        },
+        {
+            "item": "geofood:marigold"
+        },
+        {
+            "item": "geofood:garlic"
+        },
+        {
+            "item": "geofood:onion"
+        },
+        {
+            "item": "geofood:salt"
+        }
+    ],
+    "result": {
+        "item": "geofood:beetroot_mkhali",
+        "count": 1
+    }
+}

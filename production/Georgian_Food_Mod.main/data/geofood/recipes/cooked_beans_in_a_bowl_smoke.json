@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "geofood:raw_beans_in_a_bowl"
+  },
+  "result": "geofood:cooked_beans_in_a_bowl",
+  "experience": 0.8,
+  "cookingtime": 100
+}

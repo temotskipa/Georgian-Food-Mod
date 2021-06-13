@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "geofood:tatara"
+        },
+        {
+            "item": "geofood:walnut"
+        }
+    ],
+    "result": {
+        "item": "geofood:churchkhela",
+        "count": 1
+    }
+}

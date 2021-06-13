@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:cooked_chicken"
+        },
+        {
+            "item": "geofood:walnut"
+        },
+        {
+            "item": "geofood:coriander"
+        },
+        {
+            "item": "geofood:fenugreek"
+        },
+        {
+            "item": "geofood:garlic"
+        },
+        {
+            "item": "minecraft:water_bucket"
+        },
+        {
+            "item": "geofood:marigold"
+        },
+        {
+            "item": "geofood:salt"
+        },
+        {
+            "item": "minecraft:bowl"
+        }
+    ],
+    "result": {
+        "item": "geofood:chicken_in_bazhe",
+        "count": 1
+    }
+}

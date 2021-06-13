@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "geofood:salt"
+    }
+  },
+  "result": {
+    "item": "geofood:salt_block",
+    "count": 1
+  }
+}

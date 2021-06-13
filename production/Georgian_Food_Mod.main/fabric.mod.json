@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "geofood",
+  "version": "${version}",
+  "name": "Georgian Food Mod",
+  "description": "This is a mod which adds Georgian food to Minecraft!",
+  "authors": [
+    "temotskipa"
+  ],
+  "contributors": [],
+  "contact": {
+    "sources": "https://github.com/temotskipa/Georgian-Food-Mod"
+  },
+  "license": "MIT",
+  "icon": "assets/geofood/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.temotskipa.geofood.GeoFood"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*"
+  }
+}

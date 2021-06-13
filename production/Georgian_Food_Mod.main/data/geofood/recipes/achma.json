@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "geofood:imeruli_cheese"
+        },
+        {
+            "item": "geofood:sulguni"
+        },
+        {
+            "item": "minecraft:egg"
+        },
+        {
+            "item": "geofood:matsoni"
+        },
+        {
+            "item": "geofood:sour_cream"
+        },
+        {
+            "item": "geofood:salt"
+        },
+        {
+            "item": "geofood:butter"
+        }
+    ],
+    "result": {
+        "item": "geofood:achma",
+        "count": 1
+    }
+}

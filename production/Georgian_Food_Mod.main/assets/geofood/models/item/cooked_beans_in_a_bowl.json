@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "geofood:items/cooked_beans_in_a_bowl"
+  }
+}

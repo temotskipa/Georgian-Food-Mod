@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "geofood:salt"
+    },
+    {
+      "item": "geofood:cooked_beans_in_a_bowl"
+    },
+    {
+      "item": "geofood:butter"
+    }
+  ],
+  "result": {
+    "item": "geofood:lobiani",
+    "count": 1
+  }
+}

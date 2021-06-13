@@ -17,8 +17,8 @@ public class ModBlocks {
     public static final Block WALNUT_BLOCK = new Block(FabricBlockSettings
             .copy(Blocks.PUMPKIN));
     public static final Block TKEMALI_BLOCK = new Block(FabricBlockSettings
-            .of(Material.ORGANIC_PRODUCT)
-            .sounds(BlockSoundGroup.GRASS)
+            .of(Material.SOLID_ORGANIC)
+            .sounds(BlockSoundGroup.WOOD)
             .strength(1.98f, 5.8f)
             .breakByHand(true)
             .breakByTool(FabricToolTags.AXES));

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "geofood:items/beetroot_in_tkemali"
+  }
+}
