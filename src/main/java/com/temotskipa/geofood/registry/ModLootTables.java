@@ -13,7 +13,7 @@ public class ModLootTables {
     private static final Identifier OAK_LEAVES_LOOT_TABLE_ID = new Identifier("minecraft", "blocks/oak_leaves");
     private static final Identifier STONE_LOOT_TABLE_ID = new Identifier("minecraft", "blocks/stone");
     private static final Identifier GRASS_LOOT_TABLE_ID = new Identifier("minecraft", "blocks/grass");
-    
+    private static final Identifier TALL_GRASS_LOOT_TABLE_ID = new Identifier("minecraft", "blocks/tall_grass");
     public static void modifyLootTables() {
         LootTableLoadingCallback.EVENT.register(((resourceManager, manager, id, supplier, setter) -> {
             if (OAK_LEAVES_LOOT_TABLE_ID.equals(id)) {
@@ -60,6 +60,28 @@ public class ModLootTables {
                         .withFunction(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1f), false)
                                 .build())
                         .withCondition(RandomChanceLootCondition.builder(0.08f).build());
+                supplier.withPool(poolBuilder.build());
+            }
+        }));
+        LootTableLoadingCallback.EVENT.register(((resourceManager, manager, id, supplier, setter) -> {
+            if (TALL_GRASS_LOOT_TABLE_ID.equals(id)) {
+                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .with(ItemEntry.builder(ModItems.GARLIC))
+                        .with(ItemEntry.builder(ModItems.ONION))
+                        .with(ItemEntry.builder(ModItems.PARSLEY))
+                        .with(ItemEntry.builder(ModItems.RED_PEPPER))
+                        .with(ItemEntry.builder(ModItems.SCALLION))
+                        .with(ItemEntry.builder(ModItems.SPINACH))
+                        .with(ItemEntry.builder(ModItems.BEANS))
+                        .with(ItemEntry.builder(ModItems.CILANTRO))
+                        .with(ItemEntry.builder(ModItems.CORN))
+                        .with(ItemEntry.builder(ModItems.MARIGOLD))
+                        .with(ItemEntry.builder(ModItems.TARRAGON))
+                        .withFunction(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1f), false)
+                                .build())
+                        .withCondition(RandomChanceLootCondition.builder(0.08f)
+                                .build());
                 supplier.withPool(poolBuilder.build());
             }
         }));
