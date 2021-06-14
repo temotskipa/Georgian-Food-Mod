@@ -14,6 +14,8 @@ public class ModLootTables {
     private static final Identifier STONE_LOOT_TABLE_ID = new Identifier("minecraft", "blocks/stone");
     private static final Identifier GRASS_LOOT_TABLE_ID = new Identifier("minecraft", "blocks/grass");
     private static final Identifier TALL_GRASS_LOOT_TABLE_ID = new Identifier("minecraft", "blocks/tall_grass");
+    private static final Identifier DARK_OAK_LEAVES_LOOT_TABLE_ID = new Identifier("minecraft", "blocks/dark_oak_leaves");
+
     public static void modifyLootTables() {
         LootTableLoadingCallback.EVENT.register(((resourceManager, manager, id, supplier, setter) -> {
             if (OAK_LEAVES_LOOT_TABLE_ID.equals(id)) {
@@ -35,7 +37,7 @@ public class ModLootTables {
                 FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .with(ItemEntry.builder(ModItems.SALT))
-                        .withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 2f))
+                        .withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 3f))
                                 .build())
                         .withCondition(RandomChanceLootCondition.builder(0.2f)
                                 .build());
@@ -81,6 +83,21 @@ public class ModLootTables {
                         .withFunction(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1f), false)
                                 .build())
                         .withCondition(RandomChanceLootCondition.builder(0.08f)
+                                .build());
+                supplier.withPool(poolBuilder.build());
+            }
+        }));
+        LootTableLoadingCallback.EVENT.register(((resourceManager, manager, id, supplier, setter) -> {
+            if (DARK_OAK_LEAVES_LOOT_TABLE_ID.equals(id)) {
+                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .with(ItemEntry.builder(ModItems.GRAPE))
+                        .with(ItemEntry.builder(ModItems.TKEMALI))
+                        .with(ItemEntry.builder(ModItems.RED_TKEMALI))
+                        .with(ItemEntry.builder(ModItems.WALNUT))
+                        .withFunction(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1f), false)
+                                .build())
+                        .withCondition(RandomChanceLootCondition.builder(0.07f)
                                 .build());
                 supplier.withPool(poolBuilder.build());
             }
