@@ -10,21 +10,18 @@ import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
 
 public class GrapeJuiceItem extends Item {
-    public GrapeJuiceItem(Settings settings) {
+    public GrapeJuiceItem(Item.Settings settings) {
         super(settings);
     }
-    
+
     @Override
     public UseAction getUseAction(ItemStack stack) {
         return UseAction.DRINK;
     }
-    
+
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
         ItemStack itemStack = super.finishUsing(stack, world, user);
-        return user instanceof PlayerEntity && ((PlayerEntity)user).getAbilities().creativeMode ? itemStack : new ItemStack(Items.GLASS_BOTTLE);
-    }
-    public ItemStack finishAction(ItemStack stack, World world, LivingEntity user) {
         world.emitGameEvent(user, GameEvent.DRINKING_FINISH, user.getCameraBlockPos());
-        return stack;
+        return user instanceof PlayerEntity && ((PlayerEntity) user).getAbilities().creativeMode ? itemStack : new ItemStack(Items.GLASS_BOTTLE);
     }
 }
