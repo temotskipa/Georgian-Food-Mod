@@ -205,10 +205,11 @@ public class ModItems {
                     .saturationModifier(0.8f)
                     .statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH, 1), 0.15f)
                     .build()));
-    public static final Item GRAPE_JUICE = new GrapeJuiceItem(new Item.Settings()
+    public static final GrapeJuiceItem GRAPE_JUICE = new GrapeJuiceItem(new Item.Settings()
             .group(GeoFood.DRINKS).food(new FoodComponent.Builder()
                     .hunger(0)
-                    .saturationModifier(0f)
+                    .saturationModifier(0.07f)
+                    .alwaysEdible()
                     .build()));
     public static final Item BUTTER = new Item(new Item.Settings()
             .group(ItemGroup.FOOD));
