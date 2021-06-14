@@ -4,7 +4,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 public class SuperAdjaruliKhachapuriItem extends Item {
-    public SuperAdjaruliKhachapuriItem(Settings settings) {
+    public SuperAdjaruliKhachapuriItem(Item.Settings settings) {
         super(settings);
     }
     
